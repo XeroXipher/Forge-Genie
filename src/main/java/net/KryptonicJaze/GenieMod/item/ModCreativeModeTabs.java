@@ -1,6 +1,7 @@
 package net.KryptonicJaze.GenieMod.item;
 
 import net.KryptonicJaze.GenieMod.GenieMod;
+import net.KryptonicJaze.GenieMod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.datafix.fixes.ItemSpawnEggFix;
@@ -28,6 +29,8 @@ public class ModCreativeModeTabs {
                                     .displayItems((pParameters, pOutput) -> {
                                         pOutput.accept(ModItems.BANKING_ITEM.get());
                                         pOutput.accept(ModItems.GENIE_LAMP.get());
+
+                                        pOutput.accept(ModBlocks.CRIMSON_GOLD_ORE.get());
                                             })
                                             .build());
 

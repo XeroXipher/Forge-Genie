@@ -1,9 +1,9 @@
 package net.KryptonicJaze.GenieMod;
 
 import com.mojang.logging.LogUtils;
+import net.KryptonicJaze.GenieMod.block.ModBlocks;
 import net.KryptonicJaze.GenieMod.item.ModCreativeModeTabs;
 import net.KryptonicJaze.GenieMod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,6 +31,7 @@ public class GenieMod
         IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register((modEventBus));
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
