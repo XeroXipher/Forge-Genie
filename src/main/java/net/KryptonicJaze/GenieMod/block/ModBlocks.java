@@ -13,8 +13,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
-import static net.minecraft.world.level.block.Block.*;
-import static net.minecraft.world.level.block.state.BlockBehaviour.*;
 
 
 public class ModBlocks {
