@@ -5,5 +5,8 @@
   "block.genie_mod.crimson_gold_ore": "Crimson Gold Ore",
   "block.genie_mod.crimson_silver_ore": "Crimson Silver Ore",
 
+  "item.genie_mod.gold_coin": "Crimson Gold",
+  "item.genie_mod.silver_coin": "Crimnson Silver",
+
   "custom_creative_tab": "Kryptonic Menu"
 }

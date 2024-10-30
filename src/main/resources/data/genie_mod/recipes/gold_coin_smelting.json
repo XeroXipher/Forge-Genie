@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 225,
+  "experience": 0.85,
+  "ingredient": {
+    "item": "genie_mod:crimson_gold_ore"
+  },
+
+  "result": {
+    "id": "genie_mod:gold_coin",
+    "count": 10
+  }
+}

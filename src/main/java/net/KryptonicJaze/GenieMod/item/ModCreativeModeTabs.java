@@ -30,6 +30,9 @@ public class ModCreativeModeTabs {
 
                                         pOutput.accept(ModBlocks.CRIMSON_GOLD_ORE.get());
                                         pOutput.accept(ModBlocks.CRIMSON_SILVER_ORE.get());
+
+                                        pOutput.accept(ModItems.CRIMSON_GOLD.get());
+                                        pOutput.accept(ModItems.CRIMSON_SILVER.get());
                                             })
                                             .build());
 

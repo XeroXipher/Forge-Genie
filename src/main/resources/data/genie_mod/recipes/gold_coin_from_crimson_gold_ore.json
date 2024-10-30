@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "## ",
+    "## "
+  ],
+  "group": "crimson_gold",
+  "key": {
+    "#": {
+      "item": "genie_mod:crimson_gold_ore"
+    }
+  },
+
+  "result": {
+    "id": "genie_mod:gold_coin",
+    "count": 10
+  }
+}
