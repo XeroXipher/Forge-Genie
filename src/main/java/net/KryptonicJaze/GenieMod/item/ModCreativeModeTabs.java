@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                                         pOutput.accept(ModItems.GENIE_LAMP.get());
 
                                         pOutput.accept(ModBlocks.CRIMSON_GOLD_ORE.get());
+                                        pOutput.accept(ModBlocks.CRIMSON_SILVER_ORE.get());
                                             })
                                             .build());
 

@@ -24,11 +24,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> CRIMSON_GOLD_ORE = registerBlock("crimson_gold_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f, 1200f).sound(SoundType.STONE)));
 
+
+    public static final RegistryObject<Block> CRIMSON_SILVER_ORE = registerBlock("crimson_silver_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f, 1200f).sound(SoundType.STONE)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
         return toReturn;
-    }
+}
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
