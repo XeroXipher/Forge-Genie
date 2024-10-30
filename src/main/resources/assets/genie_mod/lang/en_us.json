@@ -1,3 +1,6 @@
 {
-  "item.genie_mod.genie": "Genie Lamp"
+  "item.genie_mod.genie": "Genie Lamp",
+  "item.genie_mod.banking": "Banking Item",
+
+  "custom_creative_tab": "Kryptonic Menu"
 }

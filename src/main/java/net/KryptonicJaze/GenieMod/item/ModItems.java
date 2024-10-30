@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> GENIE_LAMP = ITEMS.register("genie",
         () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BANKING_ITEM = ITEMS.register("banking",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

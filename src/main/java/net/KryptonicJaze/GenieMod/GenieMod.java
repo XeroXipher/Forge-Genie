@@ -1,6 +1,7 @@
 package net.KryptonicJaze.GenieMod;
 
 import com.mojang.logging.LogUtils;
+import net.KryptonicJaze.GenieMod.item.ModCreativeModeTabs;
 import net.KryptonicJaze.GenieMod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,7 @@ public class GenieMod
         IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
+        ModCreativeModeTabs.register((modEventBus));
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -61,6 +63,7 @@ public class GenieMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.GENIE_LAMP);
+            event.accept(ModItems.BANKING_ITEM);
         }
     }
 
